@@ -1,5 +1,10 @@
 /* styles.css */
 
+@font-face {
+    font-family: Inter;
+    src: local(assets/fonts/Inter-VariableFont_slnt,wght)
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -7,7 +12,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #1c1c1c;
-    font-family: Arial, sans-serif;
+    font-family: Inter;
 }
 
 .profile-card {
@@ -42,6 +47,12 @@ body {
     margin: 10px 0;
 }
 
+.extra{
+    font-family: Inter;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
 .social-links {
     display: flex;
     flex-direction: column;
@@ -65,8 +76,8 @@ body {
 
 .attribution{
     position: absolute;
-    margin-top: 550px;
+    margin-top: 570px;
     color: white;
-    margin-left: auto;
+    margin-left: 5px;
     margin-right: auto;
 }
